@@ -1,0 +1,58 @@
+/* ..........................navnabar................. */
+#mainNavbar {
+  background: #152f59;
+  font-size: 1.3em;
+}
+#mainNavbar .navbar-brand {
+  font-size: 1.4em;
+}
+#mainNavbar .nav-link {
+  color: white;
+  font-weight: 100;
+}
+
+#mainNavbar .navbar-brand:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #93edec;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+#mainNavbar .nav-link:hover {
+  color: #93edec;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*................... .jumbotron................ */
+.jumbotron {
+  height: 94.7vh;
+  text-align: center;
+  background: url("../images/index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  margin: 0%;
+}
+
+.jumbotron h1 {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
+.display-1 {
+  border: 3px solid #f1f1f1;
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/opacity/see-through */
+}
+.display-3 {
+  opacity: 50%;
+  border: 0px solid #f1f1f1;
+}
